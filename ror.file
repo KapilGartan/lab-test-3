@@ -1,0 +1,21 @@
+‹body style="text-align:center;" id="body">
+    <h1 style="color: green;"›
+            GeeksForGeeks
+        </h1>
+    ‹input type='text' id='id1' />
+
+    <button onclick="gfg_Run()">
+        click to set 
+    < button>
+    <p id="GFG DOWN"></p> 
+    ‹script>
+        var el_down = document. getElementById("GG_DOWN");
+        var inputF = document.getElementById("id1");
+
+        function gfg Run() {
+            inputF.value = "textValue";
+            el_ down.innerHTML =
+                 "Value = " + "'" + inputF.value + "'";
+        }
+    </script>
+</body>
